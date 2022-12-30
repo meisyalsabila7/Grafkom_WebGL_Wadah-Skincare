@@ -12,7 +12,7 @@ async function main() {
     ]);
 
     const response = await fetch(
-        "https://cdn.jsdelivr.net/gh/meisyalsabila7/Grafkom_WebGL_Wadah-Skincare/skincare-tube.obj"
+        "https://cdn.jsdelivr.net/gh/meisyalsabila7/Grafkom_WebGL_Wadah-Skincare/Skincare.obj"
     );
     const text = await response.text();
     const obj = parseOBJ(text);
